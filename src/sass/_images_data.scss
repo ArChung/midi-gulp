@@ -156,10 +156,10 @@ $compass-imagehelper-imagesmap: (
     height: '999',
     hash: 'b02551f9d71753e3a47cfbc0eb1c3f0c'
   ),
-  'kv2.jpg': (
-    width: '1980',
-    height: '1107',
-    hash: '7a5a00e64f279e6e77e6751c5bf50a94'
+  'kv_m.jpg': (
+    width: '585',
+    height: '867',
+    hash: '05f8f0afdfa8c2bbd4536e40dc0827a9'
   ),
   'logo-double-deer.png': (
     width: '170',
@@ -329,20 +329,20 @@ $compass-imagehelper-imagesmap: (
   background-image: image-url('kv.jpg');
 }
 
-%kv2-jpg {
+%kv_m-jpg {
   // Available properties:
   // prefix: ;
-  // width: 1980;
-  // height: 1107;
-  // filename: kv2.jpg;
-  // basename: kv2;
+  // width: 585;
+  // height: 867;
+  // filename: kv_m.jpg;
+  // basename: kv_m;
   // dirname: images;
   // ext: .jpg;
-  // path: kv2.jpg;
-  // fullname: kv2-jpg;
+  // path: kv_m.jpg;
+  // fullname: kv_m-jpg;
   // mime: image/jpeg;
-  // hash: 7a5a00e64f279e6e77e6751c5bf50a94;
-  background-image: image-url('kv2.jpg');
+  // hash: 05f8f0afdfa8c2bbd4536e40dc0827a9;
+  background-image: image-url('kv_m.jpg');
 }
 
 %logo-double-deer-png {

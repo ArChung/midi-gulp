@@ -32,11 +32,18 @@ header
   display: flex
   align-items: center
   justify-content: center
+  +phone 
+    +coverBg('kv_m.jpg')
+    height: auto
+    padding: 280px 0 430px
   .container
     display: flex
     align-items: flex-end
     flex-direction: column
     max-width: 1400px
+    +phone 
+      align-items: center
+
     .btn
       padding: 15px 40px
       background-color: #e51e04
@@ -92,9 +99,11 @@ header
 
 // product
 #product
+  +phone 
+    padding: 0
   .container
     padding: 50px 0
-
+    
     .tab
       display: flex
       .tabItem
@@ -145,10 +154,14 @@ header
       flex-wrap: wrap
       justify-content: space-between
       margin-top: 70px
+      +phone
+        padding: 0 15px
       .pro-Item
         width: 24%
         border: 1px solid #383636
         margin-bottom: 25px
+        +phone 
+          width: 49%
         .pic
           img
             width: 100%
@@ -157,9 +170,13 @@ header
           h2
             color: white
             font-size: 20px
+            +phone 
+              font-size: 24px
           h3
             font-size: 14px
             color: #b3b3b3
+            +phone 
+              font-size: 16px
     .btn-container
       display: flex
       justify-content: center
@@ -189,11 +206,17 @@ header
     display: flex
     justify-content: space-between
     color: white
+    padding: 0 50px
+    +phone 
+      flex-direction: column
+      font-size: 24px
     .info 
       .contact
         border-top: 1px solid #ffa600
         margin-top: 35px
         padding-top: 15px
+        +phone 
+          font-size: 20px
         p
           margin-bottom: 0
         a
@@ -212,9 +235,16 @@ header
     .socailBox
       display: flex
       align-items: flex-end
+      +phone 
+        padding: 130px 0
+        align-items: center
+        justify-content: center
       a
         display: block
         margin: 0 15px
+        +phone 
+          transform: scale(1.5)
+          margin: 0 30px
       .whatsapp
         +bg('whats-app.png')
       .fb

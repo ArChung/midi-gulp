@@ -414,6 +414,14 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  @media screen and (max-width: 768px) {
+    #index {
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-image: url("../images/kv_m.jpg");
+      height: auto;
+      padding: 280px 0 430px; } }
   #index .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -426,6 +434,11 @@ header {
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: 1400px; }
+    @media screen and (max-width: 768px) {
+      #index .container {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
     #index .container .btn {
       padding: 15px 40px;
       background-color: #e51e04;
@@ -475,6 +488,10 @@ header {
   #about h3 {
     font-weight: normal;
     margin-top: 40px; }
+
+@media screen and (max-width: 768px) {
+  #product {
+    padding: 0; } }
 
 #product .container {
   padding: 50px 0; }
@@ -557,10 +574,16 @@ header {
         -ms-flex-pack: justify;
             justify-content: space-between;
     margin-top: 70px; }
+    @media screen and (max-width: 768px) {
+      #product .container .pro-list {
+        padding: 0 15px; } }
     #product .container .pro-list .pro-Item {
       width: 24%;
       border: 1px solid #383636;
       margin-bottom: 25px; }
+      @media screen and (max-width: 768px) {
+        #product .container .pro-list .pro-Item {
+          width: 49%; } }
       #product .container .pro-list .pro-Item .pic img {
         width: 100%; }
       #product .container .pro-list .pro-Item .info {
@@ -568,9 +591,15 @@ header {
         #product .container .pro-list .pro-Item .info h2 {
           color: white;
           font-size: 20px; }
+          @media screen and (max-width: 768px) {
+            #product .container .pro-list .pro-Item .info h2 {
+              font-size: 24px; } }
         #product .container .pro-list .pro-Item .info h3 {
           font-size: 14px;
           color: #b3b3b3; }
+          @media screen and (max-width: 768px) {
+            #product .container .pro-list .pro-Item .info h3 {
+              font-size: 16px; } }
   #product .container .btn-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -609,11 +638,22 @@ header {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    color: white; }
+    color: white;
+    padding: 0 50px; }
+    @media screen and (max-width: 768px) {
+      #footer .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        font-size: 24px; } }
     #footer .container .info .contact {
       border-top: 1px solid #ffa600;
       margin-top: 35px;
       padding-top: 15px; }
+      @media screen and (max-width: 768px) {
+        #footer .container .info .contact {
+          font-size: 20px; } }
       #footer .container .info .contact p {
         margin-bottom: 0; }
       #footer .container .info .contact a {
@@ -637,9 +677,24 @@ header {
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: flex-end; }
+      @media screen and (max-width: 768px) {
+        #footer .container .socailBox {
+          padding: 130px 0;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; } }
       #footer .container .socailBox a {
         display: block;
         margin: 0 15px; }
+        @media screen and (max-width: 768px) {
+          #footer .container .socailBox a {
+            -webkit-transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                    transform: scale(1.5);
+            margin: 0 30px; } }
       #footer .container .socailBox .whatsapp {
         width: 49px;
         height: 49px;
