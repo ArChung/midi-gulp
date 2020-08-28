@@ -156,12 +156,20 @@ header
       margin-top: 70px
       +phone
         padding: 0 15px
+      .space
+        width: 23.5%
+        +phone
+          width: 48%
       .pro-Item
-        width: 24%
+        width: 23.5%
         border: 1px solid #383636
         margin-bottom: 25px
+        +dTime
+        &:hover
+          border: 1px solid rgba(#ffa600,.5)
+          transform: scale(1.03)
         +phone 
-          width: 49%
+          width: 48%
         .pic
           img
             width: 100%

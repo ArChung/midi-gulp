@@ -118,7 +118,7 @@ export function sass() {
 
 
 export function goSassImage() {
-  return gulp.src('./src/images/**/*.+(jpeg|jpg|png|gif|svg)')
+  return gulp.src('./src/images/*.+(jpeg|jpg|png|gif|svg)')
     .pipe(sassImage({
       targetFile: '_images_data.scss', // 處理完的 SCSS 檔名
       css_path: './src/css', // CSS 檔案位置
@@ -168,7 +168,7 @@ export function babel() {
  *****************************************************/
 export function imageMin() {
   return gulp
-    .src("./src/images/*.{gif,png,jpg,jpeg}")
+    .src("./src/images/**/*.{gif,png,jpg,jpeg}")
     .pipe($.if(envIsPro, cache(imagemin([
       //png
       imageminPngquant({
