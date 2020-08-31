@@ -32,6 +32,8 @@ header
   display: flex
   align-items: center
   justify-content: center
+  .index-ani
+    opacity: 0
   +phone 
     +coverBg('kv_m.jpg')
     height: auto
@@ -53,6 +55,9 @@ header
       color: #fff
       font-size: 21px
       cursor: pointer
+      +dTime
+      &:hover
+        background-color: lighten(#e51e04,10% )
 
 
     .title
@@ -160,14 +165,17 @@ header
         width: 23.5%
         +phone
           width: 48%
-      .pro-Item
+      .pro-item
         width: 23.5%
-        border: 1px solid #383636
         margin-bottom: 25px
-        +dTime
-        &:hover
-          border: 1px solid rgba(#ffa600,.5)
-          transform: scale(1.03)
+        display: flex
+        .pro-content
+          border: 1px solid #383636
+          display: block
+          +dTime
+          &:hover
+            border: 1px solid rgba(#ffa600,.5)
+            transform: scale(1.03)
         +phone 
           width: 48%
         .pic
@@ -201,9 +209,15 @@ header
     padding: 30px 50px
     border-radius: 6px
     display: inline-block
+    +dTime
+    &:hover
+      background-color: lighten(#e51e04,10% )
+      .icon-shoppy
+        transform: translate(0, -25px) scale(1.1)
     .icon-shoppy
       +bg('shoppy.png')
       display: inline-block
+      +dTime
       vertical-align: text-top
       margin-top: -10px
 
@@ -259,3 +273,13 @@ header
         +bg('fb.png')
       .ig
         +bg('ig.png')
+
+
+.view-ani.ani-init
+  opacity: 0
+  transform: translate(0, 70px)
+  +dTime(.8s)
+  will-change: transform
+  &.ani-active
+    opacity: 1
+    transform: translate(0, 0)

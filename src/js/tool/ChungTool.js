@@ -269,7 +269,7 @@ var simpleHide = simpleHide || {};
         var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
         $body.animate({
             scrollTop: top
-        }, 800);
+        },1000);
     }
 
     function isPhone() {

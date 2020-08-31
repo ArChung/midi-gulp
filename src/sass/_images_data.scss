@@ -126,11 +126,6 @@
 $compass-imagehelper-path-prefix: '../images/';
 
 $compass-imagehelper-imagesmap: (
-  'demo-1.png': (
-    width: '265',
-    height: '263',
-    hash: '27511fff9b8781c67aee44e6c3e86e7d'
-  ),
   'envelope-solid.png': (
     width: '40',
     height: '30',
@@ -171,20 +166,20 @@ $compass-imagehelper-imagesmap: (
     height: '43',
     hash: '09ebbff90230fdecdf2df2444826a809'
   ),
-  'm-1.png': (
+  'm-1.jpg': (
     width: '369',
     height: '353',
-    hash: 'e5b38e954aad8e672ecb67d13c800b02'
+    hash: '3553449e65e2efd5ed87db760f2d116c'
   ),
-  'm-2.png': (
+  'm-2.jpg': (
     width: '370',
     height: '353',
-    hash: 'd3342347cdb201fbd9deb35fd901c38f'
+    hash: 'e30489a906ff148f7a74df4d9a159c3f'
   ),
-  'm-3.png': (
+  'm-3.jpg': (
     width: '371',
     height: '353',
-    hash: 'f5016c785c5aa4540738b0d4f4e60a55'
+    hash: '695dec860eaf699f1e1e7bc2e2a0b952'
   ),
   'map-marker-alt-solid.png': (
     width: '30',
@@ -232,22 +227,6 @@ $compass-imagehelper-imagesmap: (
     hash: '2d6d1378398e94f83e137b15fb78c09f'
   ),
 );
-
-%demo-1-png {
-  // Available properties:
-  // prefix: ;
-  // width: 265;
-  // height: 263;
-  // filename: demo-1.png;
-  // basename: demo-1;
-  // dirname: images;
-  // ext: .png;
-  // path: demo-1.png;
-  // fullname: demo-1-png;
-  // mime: image/png;
-  // hash: 27511fff9b8781c67aee44e6c3e86e7d;
-  background-image: image-url('demo-1.png');
-}
 
 %envelope-solid-png {
   // Available properties:
@@ -377,52 +356,52 @@ $compass-imagehelper-imagesmap: (
   background-image: image-url('logo.png');
 }
 
-%m-1-png {
+%m-1-jpg {
   // Available properties:
   // prefix: ;
   // width: 369;
   // height: 353;
-  // filename: m-1.png;
+  // filename: m-1.jpg;
   // basename: m-1;
   // dirname: images;
-  // ext: .png;
-  // path: m-1.png;
-  // fullname: m-1-png;
-  // mime: image/png;
-  // hash: e5b38e954aad8e672ecb67d13c800b02;
-  background-image: image-url('m-1.png');
+  // ext: .jpg;
+  // path: m-1.jpg;
+  // fullname: m-1-jpg;
+  // mime: image/jpeg;
+  // hash: 3553449e65e2efd5ed87db760f2d116c;
+  background-image: image-url('m-1.jpg');
 }
 
-%m-2-png {
+%m-2-jpg {
   // Available properties:
   // prefix: ;
   // width: 370;
   // height: 353;
-  // filename: m-2.png;
+  // filename: m-2.jpg;
   // basename: m-2;
   // dirname: images;
-  // ext: .png;
-  // path: m-2.png;
-  // fullname: m-2-png;
-  // mime: image/png;
-  // hash: d3342347cdb201fbd9deb35fd901c38f;
-  background-image: image-url('m-2.png');
+  // ext: .jpg;
+  // path: m-2.jpg;
+  // fullname: m-2-jpg;
+  // mime: image/jpeg;
+  // hash: e30489a906ff148f7a74df4d9a159c3f;
+  background-image: image-url('m-2.jpg');
 }
 
-%m-3-png {
+%m-3-jpg {
   // Available properties:
   // prefix: ;
   // width: 371;
   // height: 353;
-  // filename: m-3.png;
+  // filename: m-3.jpg;
   // basename: m-3;
   // dirname: images;
-  // ext: .png;
-  // path: m-3.png;
-  // fullname: m-3-png;
-  // mime: image/png;
-  // hash: f5016c785c5aa4540738b0d4f4e60a55;
-  background-image: image-url('m-3.png');
+  // ext: .jpg;
+  // path: m-3.jpg;
+  // fullname: m-3-jpg;
+  // mime: image/jpeg;
+  // hash: 695dec860eaf699f1e1e7bc2e2a0b952;
+  background-image: image-url('m-3.jpg');
 }
 
 %map-marker-alt-solid-png {
