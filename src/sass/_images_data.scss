@@ -139,12 +139,12 @@ $compass-imagehelper-imagesmap: (
   'fb.png': (
     width: '48',
     height: '49',
-    hash: '7f287f5023c79db078b360fc370d4417'
+    hash: '51e86226a4c4cf4e3836ab03edeac384'
   ),
   'ig.png': (
     width: '48',
     height: '49',
-    hash: '8f9e77b97e447a0bd8a868deafdb5f92'
+    hash: 'bf4fe14746c618767d991a5203337e87'
   ),
   'kv.jpg': (
     width: '1800',
@@ -155,6 +155,11 @@ $compass-imagehelper-imagesmap: (
     width: '585',
     height: '867',
     hash: '05f8f0afdfa8c2bbd4536e40dc0827a9'
+  ),
+  'line-app.png': (
+    width: '49',
+    height: '49',
+    hash: '0eb53a0626d887b5391ded80c4715a18'
   ),
   'logo-double-deer.png': (
     width: '170',
@@ -200,6 +205,11 @@ $compass-imagehelper-imagesmap: (
     width: '512',
     height: '512',
     hash: '584f89de21cedb71ab251833b7a733ca'
+  ),
+  'play.png': (
+    width: '14',
+    height: '16',
+    hash: '036229df4e84c7b9dc2bf5827624e4bd'
   ),
   'shoppy.png': (
     width: '40',
@@ -272,7 +282,7 @@ $compass-imagehelper-imagesmap: (
   // path: fb.png;
   // fullname: fb-png;
   // mime: image/png;
-  // hash: 7f287f5023c79db078b360fc370d4417;
+  // hash: 51e86226a4c4cf4e3836ab03edeac384;
   background-image: image-url('fb.png');
 }
 
@@ -288,7 +298,7 @@ $compass-imagehelper-imagesmap: (
   // path: ig.png;
   // fullname: ig-png;
   // mime: image/png;
-  // hash: 8f9e77b97e447a0bd8a868deafdb5f92;
+  // hash: bf4fe14746c618767d991a5203337e87;
   background-image: image-url('ig.png');
 }
 
@@ -322,6 +332,22 @@ $compass-imagehelper-imagesmap: (
   // mime: image/jpeg;
   // hash: 05f8f0afdfa8c2bbd4536e40dc0827a9;
   background-image: image-url('kv_m.jpg');
+}
+
+%line-app-png {
+  // Available properties:
+  // prefix: ;
+  // width: 49;
+  // height: 49;
+  // filename: line-app.png;
+  // basename: line-app;
+  // dirname: images;
+  // ext: .png;
+  // path: line-app.png;
+  // fullname: line-app-png;
+  // mime: image/png;
+  // hash: 0eb53a0626d887b5391ded80c4715a18;
+  background-image: image-url('line-app.png');
 }
 
 %logo-double-deer-png {
@@ -466,6 +492,22 @@ $compass-imagehelper-imagesmap: (
   // mime: image/svg+xml;
   // hash: 584f89de21cedb71ab251833b7a733ca;
   background-image: image-url('phone.svg');
+}
+
+%play-png {
+  // Available properties:
+  // prefix: ;
+  // width: 14;
+  // height: 16;
+  // filename: play.png;
+  // basename: play;
+  // dirname: images;
+  // ext: .png;
+  // path: play.png;
+  // fullname: play-png;
+  // mime: image/png;
+  // hash: 036229df4e84c7b9dc2bf5827624e4bd;
+  background-image: image-url('play.png');
 }
 
 %shoppy-png {
